@@ -1,0 +1,12 @@
+*
+!*/
+!*.txt
+!*.py
+!*.sh
+!/.gitignore
+
+# 忽略嵌套的 git 仓库目录（避免作为子模块加入）
+AAAI26-CaptAin-in-ms-sl/
+CLIP4Clip/
+gpulord/
+mssl_laji/

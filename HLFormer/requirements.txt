@@ -1,0 +1,16 @@
+tqdm
+pyyaml
+ipdb
+torch==2.0.1
+torchvision==0.15.2
+scikit-learn
+scipy
+opencv-python
+easydict
+einops
+h5py
+matplotlib
+seaborn
+addict
+geoopt
+numpy

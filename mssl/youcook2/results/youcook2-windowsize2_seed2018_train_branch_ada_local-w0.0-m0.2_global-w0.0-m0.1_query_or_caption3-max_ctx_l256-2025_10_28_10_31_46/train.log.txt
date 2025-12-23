@@ -1,0 +1,6 @@
+2025_10_28_10_33_00 [Epoch] 000 [Loss] clip_nce_loss 0.6043 clip_trip_loss 0.3997 frame_nce_loss 0.5602 frame_trip_loss 0.4010 loss_overall 1.9653 local_hinge_loss 0.0000 global_soft_pos_loss 0.0000
+2025_10_28_10_34_20 [Epoch] 001 [Loss] clip_nce_loss 0.4508 clip_trip_loss 0.3992 frame_nce_loss 0.4533 frame_trip_loss 0.4001 loss_overall 1.7033 local_hinge_loss 0.0000 global_soft_pos_loss 0.0000
+2025_10_28_10_35_43 [Epoch] 002 [Loss] clip_nce_loss 0.3161 clip_trip_loss 0.4002 frame_nce_loss 0.4912 frame_trip_loss 0.3997 loss_overall 1.6072 local_hinge_loss 0.0000 global_soft_pos_loss 0.0000
+2025_10_28_10_37_06 [Epoch] 003 [Loss] clip_nce_loss 0.2810 clip_trip_loss 0.4005 frame_nce_loss 0.5629 frame_trip_loss 0.3998 loss_overall 1.6441 local_hinge_loss 0.0000 global_soft_pos_loss 0.0000
+2025_10_28_10_38_26 [Epoch] 004 [Loss] clip_nce_loss 0.2674 clip_trip_loss 0.4002 frame_nce_loss 0.5990 frame_trip_loss 0.4000 loss_overall 1.6666 local_hinge_loss 0.0000 global_soft_pos_loss 0.0000
+2025_10_28_10_39_43 [Epoch] 005 [Loss] clip_nce_loss 0.2564 clip_trip_loss 0.3999 frame_nce_loss 0.4869 frame_trip_loss 0.4001 loss_overall 1.5432 local_hinge_loss 0.0000 global_soft_pos_loss 0.0000

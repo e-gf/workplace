@@ -1,0 +1,1 @@
+2025_10_27_23_52_26 [Epoch] 000 [Loss] clip_nce_loss 0.5833 clip_trip_loss 0.3991 frame_nce_loss 0.6779 frame_trip_loss 0.3995 loss_overall 2.0598 local_hinge_loss 0.0000 global_soft_pos_loss 0.0000

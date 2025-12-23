@@ -1,0 +1,272 @@
+2025-10-28 10:13:53,753 - INFO - Partially Relevant Video Retrieval Training: Youcook2
+2025-10-28 10:13:53,754 - INFO - set seed: 7382
+2025-10-28 10:13:53,806 - INFO - used gpu: 0
+2025-10-28 10:13:53,806 - INFO - Hyper Parameter ......
+2025-10-28 10:13:53,806 - INFO - {'model_name': 'gmmformer', 'dataset_name': 'Youcook2', 'seed': 7382, 'root': '/chenyaofo/chenchuanshen/workspace/GMMFormer', 'data_root': '/chenyaofo/chenchuanshen/datasets', 'visual_feature': 'i3d', 'collection': 'Youcook2', 'map_size': 32, 'clip_scale_w': 0.7, 'frame_scale_w': 0.3, 'model_root': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer', 'ckpt_path': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer/ckpt', 'num_workers': 1, 'no_core_driver': False, 'no_pin_memory': False, 'batchsize': 128, 'lr': 0.00025, 'lr_warmup_proportion': 0.01, 'wd': 0.01, 'margin': 0.2, 'n_epoch': 100, 'max_es_cnt': 10, 'hard_negative_start_epoch': 100, 'hard_pool_size': 20, 'use_hard_negative': False, 'loss_factor': [0.02, 0.02, 0.005], 'neg_factor': [0.15, 32], 'eval_query_bsz': 50, 'eval_context_bsz': 100, 'max_desc_l': 120, 'max_ctx_l': 128, 'q_feat_size': 1024, 'max_position_embeddings': 300, 'hidden_size': 384, 'n_heads': 4, 'input_drop': 0.15, 'drop': 0.15, 'initializer_range': 0.02, 'pin_memory': True, 'caption_rate': 1.0, 'global_caption': True, 'local_hinge_weight': 0.9, 'local_margin': 0.2, 'global_soft_pos_weight': 0.9, 'soft_pos_margin': 0.1, 'query_or_caption': 3}
+2025-10-28 10:13:53,806 - INFO - Loading Data ......
+2025-10-28 10:17:54,136 - INFO - Partially Relevant Video Retrieval Training: Youcook2
+2025-10-28 10:17:54,137 - INFO - set seed: 7382
+2025-10-28 10:17:54,186 - INFO - used gpu: 0
+2025-10-28 10:17:54,186 - INFO - Hyper Parameter ......
+2025-10-28 10:17:54,186 - INFO - {'model_name': 'gmmformer', 'dataset_name': 'Youcook2', 'seed': 7382, 'root': '/chenyaofo/chenchuanshen/workspace/GMMFormer', 'data_root': '/chenyaofo/chenchuanshen/datasets', 'visual_feature': 'i3d', 'collection': 'Youcook2', 'map_size': 32, 'clip_scale_w': 0.7, 'frame_scale_w': 0.3, 'model_root': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer', 'ckpt_path': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer/ckpt', 'num_workers': 1, 'no_core_driver': False, 'no_pin_memory': False, 'batchsize': 128, 'lr': 0.00025, 'lr_warmup_proportion': 0.01, 'wd': 0.01, 'margin': 0.2, 'n_epoch': 100, 'max_es_cnt': 10, 'hard_negative_start_epoch': 100, 'hard_pool_size': 20, 'use_hard_negative': False, 'loss_factor': [0.02, 0.02, 0.005], 'neg_factor': [0.15, 32], 'eval_query_bsz': 50, 'eval_context_bsz': 100, 'max_desc_l': 120, 'max_ctx_l': 128, 'q_feat_size': 1024, 'max_position_embeddings': 300, 'hidden_size': 384, 'n_heads': 4, 'input_drop': 0.15, 'drop': 0.15, 'initializer_range': 0.02, 'pin_memory': True, 'caption_rate': 1.0, 'global_caption': True, 'local_hinge_weight': 0.9, 'local_margin': 0.2, 'global_soft_pos_weight': 0.9, 'soft_pos_margin': 0.1, 'query_or_caption': 3}
+2025-10-28 10:17:54,186 - INFO - Loading Data ......
+2025-10-28 10:18:32,191 - INFO - Partially Relevant Video Retrieval Training: Youcook2
+2025-10-28 10:18:32,191 - INFO - set seed: 7382
+2025-10-28 10:18:32,240 - INFO - used gpu: 0
+2025-10-28 10:18:32,241 - INFO - Hyper Parameter ......
+2025-10-28 10:18:32,241 - INFO - {'model_name': 'gmmformer', 'dataset_name': 'Youcook2', 'seed': 7382, 'root': '/chenyaofo/chenchuanshen/workspace/GMMFormer', 'data_root': '/chenyaofo/chenchuanshen/datasets', 'visual_feature': 'i3d', 'collection': 'Youcook2', 'map_size': 32, 'clip_scale_w': 0.7, 'frame_scale_w': 0.3, 'model_root': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer', 'ckpt_path': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer/ckpt', 'num_workers': 1, 'no_core_driver': False, 'no_pin_memory': False, 'batchsize': 128, 'lr': 0.00025, 'lr_warmup_proportion': 0.01, 'wd': 0.01, 'margin': 0.2, 'n_epoch': 100, 'max_es_cnt': 10, 'hard_negative_start_epoch': 100, 'hard_pool_size': 20, 'use_hard_negative': False, 'loss_factor': [0.02, 0.02, 0.005], 'neg_factor': [0.15, 32], 'eval_query_bsz': 50, 'eval_context_bsz': 100, 'max_desc_l': 120, 'max_ctx_l': 128, 'q_feat_size': 1024, 'max_position_embeddings': 300, 'hidden_size': 384, 'n_heads': 4, 'input_drop': 0.15, 'drop': 0.15, 'initializer_range': 0.02, 'pin_memory': True, 'caption_rate': 0.0, 'global_caption': False, 'local_hinge_weight': 0.0, 'local_margin': 0.2, 'global_soft_pos_weight': 0.0, 'soft_pos_margin': 0.1, 'query_or_caption': 3}
+2025-10-28 10:18:32,242 - INFO - Loading Data ......
+2025-10-28 10:19:54,757 - INFO - Partially Relevant Video Retrieval Training: Youcook2
+2025-10-28 10:19:54,757 - INFO - set seed: 7382
+2025-10-28 10:19:54,806 - INFO - used gpu: 0
+2025-10-28 10:19:54,806 - INFO - Hyper Parameter ......
+2025-10-28 10:19:54,807 - INFO - {'model_name': 'gmmformer', 'dataset_name': 'Youcook2', 'seed': 7382, 'root': '/chenyaofo/chenchuanshen/workspace/GMMFormer', 'data_root': '/chenyaofo/chenchuanshen/datasets', 'visual_feature': 'i3d', 'collection': 'Youcook2', 'map_size': 32, 'clip_scale_w': 0.7, 'frame_scale_w': 0.3, 'model_root': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer', 'ckpt_path': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer/ckpt', 'num_workers': 1, 'no_core_driver': False, 'no_pin_memory': False, 'batchsize': 128, 'lr': 0.00025, 'lr_warmup_proportion': 0.01, 'wd': 0.01, 'margin': 0.2, 'n_epoch': 100, 'max_es_cnt': 10, 'hard_negative_start_epoch': 100, 'hard_pool_size': 20, 'use_hard_negative': False, 'loss_factor': [0.02, 0.02, 0.005], 'neg_factor': [0.15, 32], 'eval_query_bsz': 50, 'eval_context_bsz': 100, 'max_desc_l': 120, 'max_ctx_l': 128, 'q_feat_size': 1024, 'max_position_embeddings': 300, 'hidden_size': 384, 'n_heads': 4, 'input_drop': 0.15, 'drop': 0.15, 'initializer_range': 0.02, 'pin_memory': True, 'caption_rate': 0.0, 'global_caption': False, 'local_hinge_weight': 0.0, 'local_margin': 0.2, 'global_soft_pos_weight': 0.0, 'soft_pos_margin': 0.1, 'query_or_caption': 3}
+2025-10-28 10:19:54,807 - INFO - Loading Data ......
+2025-10-28 10:20:26,553 - INFO - Partially Relevant Video Retrieval Training: Youcook2
+2025-10-28 10:20:26,554 - INFO - set seed: 7382
+2025-10-28 10:20:26,607 - INFO - used gpu: 0
+2025-10-28 10:20:26,607 - INFO - Hyper Parameter ......
+2025-10-28 10:20:26,607 - INFO - {'model_name': 'gmmformer', 'dataset_name': 'Youcook2', 'seed': 7382, 'root': '/chenyaofo/chenchuanshen/workspace/GMMFormer', 'data_root': '/chenyaofo/chenchuanshen/datasets', 'visual_feature': 'i3d', 'collection': 'Youcook2', 'map_size': 32, 'clip_scale_w': 0.7, 'frame_scale_w': 0.3, 'model_root': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer', 'ckpt_path': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer/ckpt', 'num_workers': 1, 'no_core_driver': False, 'no_pin_memory': False, 'batchsize': 128, 'lr': 0.00025, 'lr_warmup_proportion': 0.01, 'wd': 0.01, 'margin': 0.2, 'n_epoch': 100, 'max_es_cnt': 10, 'hard_negative_start_epoch': 100, 'hard_pool_size': 20, 'use_hard_negative': False, 'loss_factor': [0.02, 0.02, 0.005], 'neg_factor': [0.15, 32], 'eval_query_bsz': 50, 'eval_context_bsz': 100, 'max_desc_l': 120, 'max_ctx_l': 128, 'q_feat_size': 1024, 'max_position_embeddings': 300, 'hidden_size': 384, 'n_heads': 4, 'input_drop': 0.15, 'drop': 0.15, 'initializer_range': 0.02, 'pin_memory': True, 'caption_rate': 0.0, 'global_caption': False, 'local_hinge_weight': 0.0, 'local_margin': 0.2, 'global_soft_pos_weight': 0.0, 'soft_pos_margin': 0.1, 'query_or_caption': 3}
+2025-10-28 10:20:26,607 - INFO - Loading Data ......
+2025-10-28 10:22:04,938 - INFO - Partially Relevant Video Retrieval Training: Youcook2
+2025-10-28 10:22:04,939 - INFO - set seed: 7382
+2025-10-28 10:22:05,002 - INFO - used gpu: 0
+2025-10-28 10:22:05,002 - INFO - Hyper Parameter ......
+2025-10-28 10:22:05,002 - INFO - {'model_name': 'gmmformer', 'dataset_name': 'Youcook2', 'seed': 7382, 'root': '/chenyaofo/chenchuanshen/workspace/GMMFormer', 'data_root': '/chenyaofo/chenchuanshen/datasets', 'visual_feature': 'i3d', 'collection': 'Youcook2', 'map_size': 32, 'clip_scale_w': 0.7, 'frame_scale_w': 0.3, 'model_root': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer', 'ckpt_path': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer/ckpt', 'num_workers': 1, 'no_core_driver': False, 'no_pin_memory': False, 'batchsize': 128, 'lr': 0.00025, 'lr_warmup_proportion': 0.01, 'wd': 0.01, 'margin': 0.2, 'n_epoch': 100, 'max_es_cnt': 10, 'hard_negative_start_epoch': 100, 'hard_pool_size': 20, 'use_hard_negative': False, 'loss_factor': [0.02, 0.02, 0.005], 'neg_factor': [0.15, 32], 'eval_query_bsz': 50, 'eval_context_bsz': 100, 'max_desc_l': 120, 'max_ctx_l': 128, 'q_feat_size': 1024, 'max_position_embeddings': 300, 'hidden_size': 384, 'n_heads': 4, 'input_drop': 0.15, 'drop': 0.15, 'initializer_range': 0.02, 'pin_memory': True, 'caption_rate': 0.0, 'global_caption': False, 'local_hinge_weight': 0.0, 'local_margin': 0.2, 'global_soft_pos_weight': 0.0, 'soft_pos_margin': 0.1, 'query_or_caption': 3}
+2025-10-28 10:22:05,002 - INFO - Loading Data ......
+2025-10-28 10:22:08,423 - INFO - Loading Model ......
+2025-10-28 10:22:56,346 - INFO - Partially Relevant Video Retrieval Training: Youcook2
+2025-10-28 10:22:56,347 - INFO - set seed: 7382
+2025-10-28 10:22:56,400 - INFO - used gpu: 0
+2025-10-28 10:22:56,400 - INFO - Hyper Parameter ......
+2025-10-28 10:22:56,400 - INFO - {'model_name': 'gmmformer', 'dataset_name': 'Youcook2', 'seed': 7382, 'root': '/chenyaofo/chenchuanshen/workspace/GMMFormer', 'data_root': '/chenyaofo/chenchuanshen/datasets', 'visual_feature': 'i3d', 'collection': 'Youcook2', 'map_size': 32, 'clip_scale_w': 0.7, 'frame_scale_w': 0.3, 'model_root': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer', 'ckpt_path': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer/ckpt', 'num_workers': 1, 'no_core_driver': False, 'no_pin_memory': False, 'batchsize': 128, 'lr': 0.00025, 'lr_warmup_proportion': 0.01, 'wd': 0.01, 'margin': 0.2, 'n_epoch': 100, 'max_es_cnt': 10, 'hard_negative_start_epoch': 100, 'hard_pool_size': 20, 'use_hard_negative': False, 'loss_factor': [0.02, 0.02, 0.005], 'neg_factor': [0.15, 32], 'eval_query_bsz': 50, 'eval_context_bsz': 100, 'max_desc_l': 120, 'max_ctx_l': 128, 'q_feat_size': 1024, 'max_position_embeddings': 300, 'hidden_size': 384, 'n_heads': 4, 'input_drop': 0.15, 'drop': 0.15, 'initializer_range': 0.02, 'pin_memory': True, 'caption_rate': 0.0, 'global_caption': False, 'local_hinge_weight': 0.0, 'local_margin': 0.2, 'global_soft_pos_weight': 0.0, 'soft_pos_margin': 0.1, 'query_or_caption': 3}
+2025-10-28 10:22:56,400 - INFO - Loading Data ......
+2025-10-28 10:23:00,518 - INFO - Loading Model ......
+2025-10-28 10:23:30,143 - INFO - Partially Relevant Video Retrieval Training: Youcook2
+2025-10-28 10:23:30,144 - INFO - set seed: 7382
+2025-10-28 10:23:30,212 - INFO - used gpu: 5
+2025-10-28 10:23:30,213 - INFO - Hyper Parameter ......
+2025-10-28 10:23:30,213 - INFO - {'model_name': 'gmmformer', 'dataset_name': 'Youcook2', 'seed': 7382, 'root': '/chenyaofo/chenchuanshen/workspace/GMMFormer', 'data_root': '/chenyaofo/chenchuanshen/datasets', 'visual_feature': 'i3d', 'collection': 'Youcook2', 'map_size': 32, 'clip_scale_w': 0.7, 'frame_scale_w': 0.3, 'model_root': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer', 'ckpt_path': '/chenyaofo/chenchuanshen/workspace/GMMFormer/results/Youcook2/gmmformer/ckpt', 'num_workers': 1, 'no_core_driver': False, 'no_pin_memory': False, 'batchsize': 128, 'lr': 0.00025, 'lr_warmup_proportion': 0.01, 'wd': 0.01, 'margin': 0.2, 'n_epoch': 100, 'max_es_cnt': 10, 'hard_negative_start_epoch': 100, 'hard_pool_size': 20, 'use_hard_negative': False, 'loss_factor': [0.02, 0.02, 0.005], 'neg_factor': [0.15, 32], 'eval_query_bsz': 50, 'eval_context_bsz': 100, 'max_desc_l': 120, 'max_ctx_l': 128, 'q_feat_size': 1024, 'max_position_embeddings': 300, 'hidden_size': 384, 'n_heads': 4, 'input_drop': 0.15, 'drop': 0.15, 'initializer_range': 0.02, 'pin_memory': True, 'caption_rate': 0.0, 'global_caption': False, 'local_hinge_weight': 0.0, 'local_margin': 0.2, 'global_soft_pos_weight': 0.0, 'soft_pos_margin': 0.1, 'query_or_caption': 3}
+2025-10-28 10:23:30,213 - INFO - Loading Data ......
+2025-10-28 10:23:33,571 - INFO - Loading Model ......
+2025-10-28 10:23:55,330 - INFO - ==========================================================================================================
+2025-10-28 10:23:55,331 - INFO - Epoch:  0    New Best Model !!!
+2025-10-28 10:23:55,331 - INFO - Average Loss: 1.9893
+2025-10-28 10:23:55,331 - INFO - R@1: 0.2
+2025-10-28 10:23:55,331 - INFO - R@5: 1.0
+2025-10-28 10:23:55,331 - INFO - R@10: 1.9
+2025-10-28 10:23:55,331 - INFO - R@100: 21.2
+2025-10-28 10:23:55,332 - INFO - Rsum: 24.3
+2025-10-28 10:23:55,332 - INFO - Best: R@1: 0.2 R@5: 1.0 R@10: 1.9 R@100: 21.2 Rsum: 24.3
+2025-10-28 10:23:55,332 - INFO - ==========================================================================================================
+2025-10-28 10:24:16,280 - INFO - ==========================================================================================================
+2025-10-28 10:24:16,281 - INFO - Epoch:  1    New Best Model !!!
+2025-10-28 10:24:16,281 - INFO - Average Loss: 1.6522
+2025-10-28 10:24:16,281 - INFO - R@1: 0.3
+2025-10-28 10:24:16,281 - INFO - R@5: 1.2
+2025-10-28 10:24:16,281 - INFO - R@10: 2.0
+2025-10-28 10:24:16,281 - INFO - R@100: 22.2
+2025-10-28 10:24:16,281 - INFO - Rsum: 25.6
+2025-10-28 10:24:16,281 - INFO - Best: R@1: 0.3 R@5: 1.2 R@10: 2.0 R@100: 22.2 Rsum: 25.6
+2025-10-28 10:24:16,281 - INFO - ==========================================================================================================
+2025-10-28 10:24:36,173 - INFO - ==========================================================================================================
+2025-10-28 10:24:36,173 - INFO - Epoch:  2    A Relative Failure Epoch
+2025-10-28 10:24:36,173 - INFO - Average Loss: 1.4391
+2025-10-28 10:24:36,173 - INFO - R@1: 0.1
+2025-10-28 10:24:36,173 - INFO - R@5: 0.9
+2025-10-28 10:24:36,173 - INFO - R@10: 2.0
+2025-10-28 10:24:36,173 - INFO - R@100: 20.4
+2025-10-28 10:24:36,173 - INFO - Rsum: 23.5
+2025-10-28 10:24:36,173 - INFO - Best: R@1: 0.3 R@5: 1.2 R@10: 2.0 R@100: 22.2 Rsum: 25.6
+2025-10-28 10:24:36,173 - INFO - ==========================================================================================================
+2025-10-28 10:24:56,159 - INFO - ==========================================================================================================
+2025-10-28 10:24:56,160 - INFO - Epoch:  3    A Relative Failure Epoch
+2025-10-28 10:24:56,160 - INFO - Average Loss: 1.3897
+2025-10-28 10:24:56,160 - INFO - R@1: 0.1
+2025-10-28 10:24:56,160 - INFO - R@5: 0.9
+2025-10-28 10:24:56,160 - INFO - R@10: 1.8
+2025-10-28 10:24:56,160 - INFO - R@100: 20.5
+2025-10-28 10:24:56,160 - INFO - Rsum: 23.3
+2025-10-28 10:24:56,160 - INFO - Best: R@1: 0.3 R@5: 1.2 R@10: 2.0 R@100: 22.2 Rsum: 25.6
+2025-10-28 10:24:56,160 - INFO - ==========================================================================================================
+2025-10-28 10:25:16,225 - INFO - ==========================================================================================================
+2025-10-28 10:25:16,225 - INFO - Epoch:  4    A Relative Failure Epoch
+2025-10-28 10:25:16,225 - INFO - Average Loss: 1.3760
+2025-10-28 10:25:16,226 - INFO - R@1: 0.1
+2025-10-28 10:25:16,226 - INFO - R@5: 1.1
+2025-10-28 10:25:16,226 - INFO - R@10: 1.9
+2025-10-28 10:25:16,226 - INFO - R@100: 20.8
+2025-10-28 10:25:16,226 - INFO - Rsum: 24.1
+2025-10-28 10:25:16,226 - INFO - Best: R@1: 0.3 R@5: 1.2 R@10: 2.0 R@100: 22.2 Rsum: 25.6
+2025-10-28 10:25:16,226 - INFO - ==========================================================================================================
+2025-10-28 10:25:35,295 - INFO - ==========================================================================================================
+2025-10-28 10:25:35,295 - INFO - Epoch:  5    A Relative Failure Epoch
+2025-10-28 10:25:35,295 - INFO - Average Loss: 1.3674
+2025-10-28 10:25:35,295 - INFO - R@1: 0.1
+2025-10-28 10:25:35,295 - INFO - R@5: 1.0
+2025-10-28 10:25:35,295 - INFO - R@10: 2.1
+2025-10-28 10:25:35,295 - INFO - R@100: 21.1
+2025-10-28 10:25:35,295 - INFO - Rsum: 24.3
+2025-10-28 10:25:35,295 - INFO - Best: R@1: 0.3 R@5: 1.2 R@10: 2.0 R@100: 22.2 Rsum: 25.6
+2025-10-28 10:25:35,295 - INFO - ==========================================================================================================
+2025-10-28 10:25:54,830 - INFO - ==========================================================================================================
+2025-10-28 10:25:54,830 - INFO - Epoch:  6    A Relative Failure Epoch
+2025-10-28 10:25:54,830 - INFO - Average Loss: 1.3635
+2025-10-28 10:25:54,830 - INFO - R@1: 0.1
+2025-10-28 10:25:54,830 - INFO - R@5: 0.8
+2025-10-28 10:25:54,830 - INFO - R@10: 2.1
+2025-10-28 10:25:54,830 - INFO - R@100: 21.5
+2025-10-28 10:25:54,830 - INFO - Rsum: 24.5
+2025-10-28 10:25:54,830 - INFO - Best: R@1: 0.3 R@5: 1.2 R@10: 2.0 R@100: 22.2 Rsum: 25.6
+2025-10-28 10:25:54,831 - INFO - ==========================================================================================================
+2025-10-28 10:26:13,202 - INFO - ==========================================================================================================
+2025-10-28 10:26:13,202 - INFO - Epoch:  7    A Relative Failure Epoch
+2025-10-28 10:26:13,202 - INFO - Average Loss: 1.3620
+2025-10-28 10:26:13,202 - INFO - R@1: 0.1
+2025-10-28 10:26:13,202 - INFO - R@5: 0.8
+2025-10-28 10:26:13,202 - INFO - R@10: 2.1
+2025-10-28 10:26:13,202 - INFO - R@100: 22.2
+2025-10-28 10:26:13,202 - INFO - Rsum: 25.2
+2025-10-28 10:26:13,202 - INFO - Best: R@1: 0.3 R@5: 1.2 R@10: 2.0 R@100: 22.2 Rsum: 25.6
+2025-10-28 10:26:13,203 - INFO - ==========================================================================================================
+2025-10-28 10:26:32,517 - INFO - ==========================================================================================================
+2025-10-28 10:26:32,518 - INFO - Epoch:  8    New Best Model !!!
+2025-10-28 10:26:32,518 - INFO - Average Loss: 1.3559
+2025-10-28 10:26:32,518 - INFO - R@1: 0.1
+2025-10-28 10:26:32,518 - INFO - R@5: 0.9
+2025-10-28 10:26:32,518 - INFO - R@10: 1.9
+2025-10-28 10:26:32,518 - INFO - R@100: 22.7
+2025-10-28 10:26:32,518 - INFO - Rsum: 25.7
+2025-10-28 10:26:32,518 - INFO - Best: R@1: 0.1 R@5: 0.9 R@10: 1.9 R@100: 22.7 Rsum: 25.7
+2025-10-28 10:26:32,518 - INFO - ==========================================================================================================
+2025-10-28 10:26:51,891 - INFO - ==========================================================================================================
+2025-10-28 10:26:51,892 - INFO - Epoch:  9    A Relative Failure Epoch
+2025-10-28 10:26:51,892 - INFO - Average Loss: 1.3536
+2025-10-28 10:26:51,892 - INFO - R@1: 0.1
+2025-10-28 10:26:51,892 - INFO - R@5: 1.0
+2025-10-28 10:26:51,892 - INFO - R@10: 1.9
+2025-10-28 10:26:51,892 - INFO - R@100: 22.5
+2025-10-28 10:26:51,892 - INFO - Rsum: 25.5
+2025-10-28 10:26:51,892 - INFO - Best: R@1: 0.1 R@5: 0.9 R@10: 1.9 R@100: 22.7 Rsum: 25.7
+2025-10-28 10:26:51,892 - INFO - ==========================================================================================================
+2025-10-28 10:27:10,652 - INFO - ==========================================================================================================
+2025-10-28 10:27:10,654 - INFO - Epoch: 10    New Best Model !!!
+2025-10-28 10:27:10,654 - INFO - Average Loss: 1.3512
+2025-10-28 10:27:10,654 - INFO - R@1: 0.2
+2025-10-28 10:27:10,654 - INFO - R@5: 0.9
+2025-10-28 10:27:10,654 - INFO - R@10: 2.1
+2025-10-28 10:27:10,654 - INFO - R@100: 23.9
+2025-10-28 10:27:10,655 - INFO - Rsum: 27.0
+2025-10-28 10:27:10,655 - INFO - Best: R@1: 0.2 R@5: 0.9 R@10: 2.1 R@100: 23.9 Rsum: 27.0
+2025-10-28 10:27:10,655 - INFO - ==========================================================================================================
+2025-10-28 10:27:29,975 - INFO - ==========================================================================================================
+2025-10-28 10:27:29,976 - INFO - Epoch: 11    A Relative Failure Epoch
+2025-10-28 10:27:29,976 - INFO - Average Loss: 1.3525
+2025-10-28 10:27:29,976 - INFO - R@1: 0.2
+2025-10-28 10:27:29,976 - INFO - R@5: 0.9
+2025-10-28 10:27:29,976 - INFO - R@10: 2.0
+2025-10-28 10:27:29,976 - INFO - R@100: 23.2
+2025-10-28 10:27:29,976 - INFO - Rsum: 26.3
+2025-10-28 10:27:29,976 - INFO - Best: R@1: 0.2 R@5: 0.9 R@10: 2.1 R@100: 23.9 Rsum: 27.0
+2025-10-28 10:27:29,976 - INFO - ==========================================================================================================
+2025-10-28 10:27:48,658 - INFO - ==========================================================================================================
+2025-10-28 10:27:48,659 - INFO - Epoch: 12    A Relative Failure Epoch
+2025-10-28 10:27:48,659 - INFO - Average Loss: 1.3469
+2025-10-28 10:27:48,659 - INFO - R@1: 0.2
+2025-10-28 10:27:48,659 - INFO - R@5: 0.8
+2025-10-28 10:27:48,659 - INFO - R@10: 2.2
+2025-10-28 10:27:48,659 - INFO - R@100: 23.3
+2025-10-28 10:27:48,659 - INFO - Rsum: 26.5
+2025-10-28 10:27:48,659 - INFO - Best: R@1: 0.2 R@5: 0.9 R@10: 2.1 R@100: 23.9 Rsum: 27.0
+2025-10-28 10:27:48,659 - INFO - ==========================================================================================================
+2025-10-28 10:28:07,523 - INFO - ==========================================================================================================
+2025-10-28 10:28:07,523 - INFO - Epoch: 13    A Relative Failure Epoch
+2025-10-28 10:28:07,523 - INFO - Average Loss: 1.3479
+2025-10-28 10:28:07,523 - INFO - R@1: 0.2
+2025-10-28 10:28:07,524 - INFO - R@5: 0.9
+2025-10-28 10:28:07,524 - INFO - R@10: 2.2
+2025-10-28 10:28:07,524 - INFO - R@100: 23.2
+2025-10-28 10:28:07,524 - INFO - Rsum: 26.5
+2025-10-28 10:28:07,524 - INFO - Best: R@1: 0.2 R@5: 0.9 R@10: 2.1 R@100: 23.9 Rsum: 27.0
+2025-10-28 10:28:07,524 - INFO - ==========================================================================================================
+2025-10-28 10:28:25,631 - INFO - ==========================================================================================================
+2025-10-28 10:28:25,632 - INFO - Epoch: 14    A Relative Failure Epoch
+2025-10-28 10:28:25,632 - INFO - Average Loss: 1.3488
+2025-10-28 10:28:25,632 - INFO - R@1: 0.2
+2025-10-28 10:28:25,632 - INFO - R@5: 0.9
+2025-10-28 10:28:25,632 - INFO - R@10: 2.1
+2025-10-28 10:28:25,632 - INFO - R@100: 23.2
+2025-10-28 10:28:25,632 - INFO - Rsum: 26.3
+2025-10-28 10:28:25,632 - INFO - Best: R@1: 0.2 R@5: 0.9 R@10: 2.1 R@100: 23.9 Rsum: 27.0
+2025-10-28 10:28:25,632 - INFO - ==========================================================================================================
+2025-10-28 10:28:44,875 - INFO - ==========================================================================================================
+2025-10-28 10:28:44,876 - INFO - Epoch: 15    A Relative Failure Epoch
+2025-10-28 10:28:44,876 - INFO - Average Loss: 1.3492
+2025-10-28 10:28:44,876 - INFO - R@1: 0.2
+2025-10-28 10:28:44,876 - INFO - R@5: 0.9
+2025-10-28 10:28:44,876 - INFO - R@10: 2.0
+2025-10-28 10:28:44,876 - INFO - R@100: 22.8
+2025-10-28 10:28:44,876 - INFO - Rsum: 25.8
+2025-10-28 10:28:44,876 - INFO - Best: R@1: 0.2 R@5: 0.9 R@10: 2.1 R@100: 23.9 Rsum: 27.0
+2025-10-28 10:28:44,876 - INFO - ==========================================================================================================
+2025-10-28 10:29:03,776 - INFO - ==========================================================================================================
+2025-10-28 10:29:03,777 - INFO - Epoch: 16    A Relative Failure Epoch
+2025-10-28 10:29:03,777 - INFO - Average Loss: 1.3458
+2025-10-28 10:29:03,777 - INFO - R@1: 0.2
+2025-10-28 10:29:03,777 - INFO - R@5: 0.9
+2025-10-28 10:29:03,777 - INFO - R@10: 2.0
+2025-10-28 10:29:03,777 - INFO - R@100: 23.6
+2025-10-28 10:29:03,777 - INFO - Rsum: 26.7
+2025-10-28 10:29:03,777 - INFO - Best: R@1: 0.2 R@5: 0.9 R@10: 2.1 R@100: 23.9 Rsum: 27.0
+2025-10-28 10:29:03,777 - INFO - ==========================================================================================================
+2025-10-28 10:29:22,607 - INFO - ==========================================================================================================
+2025-10-28 10:29:22,608 - INFO - Epoch: 17    A Relative Failure Epoch
+2025-10-28 10:29:22,608 - INFO - Average Loss: 1.3441
+2025-10-28 10:29:22,608 - INFO - R@1: 0.2
+2025-10-28 10:29:22,608 - INFO - R@5: 0.9
+2025-10-28 10:29:22,608 - INFO - R@10: 2.0
+2025-10-28 10:29:22,608 - INFO - R@100: 23.7
+2025-10-28 10:29:22,608 - INFO - Rsum: 26.8
+2025-10-28 10:29:22,608 - INFO - Best: R@1: 0.2 R@5: 0.9 R@10: 2.1 R@100: 23.9 Rsum: 27.0
+2025-10-28 10:29:22,608 - INFO - ==========================================================================================================
+2025-10-28 10:29:41,484 - INFO - ==========================================================================================================
+2025-10-28 10:29:41,485 - INFO - Epoch: 18    A Relative Failure Epoch
+2025-10-28 10:29:41,485 - INFO - Average Loss: 1.3455
+2025-10-28 10:29:41,485 - INFO - R@1: 0.2
+2025-10-28 10:29:41,485 - INFO - R@5: 0.9
+2025-10-28 10:29:41,485 - INFO - R@10: 2.1
+2025-10-28 10:29:41,485 - INFO - R@100: 23.5
+2025-10-28 10:29:41,485 - INFO - Rsum: 26.7
+2025-10-28 10:29:41,485 - INFO - Best: R@1: 0.2 R@5: 0.9 R@10: 2.1 R@100: 23.9 Rsum: 27.0
+2025-10-28 10:29:41,485 - INFO - ==========================================================================================================
+2025-10-28 10:30:00,459 - INFO - ==========================================================================================================
+2025-10-28 10:30:00,459 - INFO - Epoch: 19    A Relative Failure Epoch
+2025-10-28 10:30:00,460 - INFO - Average Loss: 1.3426
+2025-10-28 10:30:00,460 - INFO - R@1: 0.2
+2025-10-28 10:30:00,460 - INFO - R@5: 0.9
+2025-10-28 10:30:00,460 - INFO - R@10: 2.0
+2025-10-28 10:30:00,460 - INFO - R@100: 23.6
+2025-10-28 10:30:00,460 - INFO - Rsum: 26.6
+2025-10-28 10:30:00,460 - INFO - Best: R@1: 0.2 R@5: 0.9 R@10: 2.1 R@100: 23.9 Rsum: 27.0
+2025-10-28 10:30:00,460 - INFO - ==========================================================================================================
+2025-10-28 10:30:19,158 - INFO - ==========================================================================================================
+2025-10-28 10:30:19,158 - INFO - Epoch: 20    A Relative Failure Epoch
+2025-10-28 10:30:19,158 - INFO - Average Loss: 1.3435
+2025-10-28 10:30:19,158 - INFO - R@1: 0.2
+2025-10-28 10:30:19,158 - INFO - R@5: 0.9
+2025-10-28 10:30:19,158 - INFO - R@10: 1.9
+2025-10-28 10:30:19,158 - INFO - R@100: 23.4
+2025-10-28 10:30:19,158 - INFO - Rsum: 26.4
+2025-10-28 10:30:19,159 - INFO - Best: R@1: 0.2 R@5: 0.9 R@10: 2.1 R@100: 23.9 Rsum: 27.0
+2025-10-28 10:30:19,159 - INFO - ==========================================================================================================
+2025-10-28 10:30:37,220 - INFO - ==========================================================================================================
+2025-10-28 10:30:37,220 - INFO - Epoch: 21    A Relative Failure Epoch
+2025-10-28 10:30:37,220 - INFO - Average Loss: 1.3401
+2025-10-28 10:30:37,220 - INFO - R@1: 0.2
+2025-10-28 10:30:37,220 - INFO - R@5: 0.9
+2025-10-28 10:30:37,221 - INFO - R@10: 2.1
+2025-10-28 10:30:37,221 - INFO - R@100: 23.4
+2025-10-28 10:30:37,221 - INFO - Rsum: 26.5
+2025-10-28 10:30:37,221 - INFO - Best: R@1: 0.2 R@5: 0.9 R@10: 2.1 R@100: 23.9 Rsum: 27.0
+2025-10-28 10:30:37,221 - INFO - ==========================================================================================================
+2025-10-28 10:30:37,221 - INFO - Early Stop !!!
